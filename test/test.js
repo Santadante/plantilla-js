@@ -15,5 +15,5 @@ it('comprobar función suma', function() {
 it('comprobar función resta', function() {
 	assert.equal(func.resta(3,1), 2);
 	assert.equal(func.resta(8,3), 5);
-	assert.equal(func.resta(-5,-3), -8  );
+	assert.equal(func.resta(5,3), 2);
 });
